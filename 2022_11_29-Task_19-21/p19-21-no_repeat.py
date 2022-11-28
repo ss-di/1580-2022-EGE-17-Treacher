@@ -1,17 +1,18 @@
-def hod(a, mh, h=0):
-    if a >= 29:
+def hod(a, mh, h=0, ph=0):
+    if a >= 43:
         if h % 2 == 1:
             return 1
         else:
             return 2
-
+    
     h += 1
     if h > mh:
         return 3
 
     res = []
-    res.append(hod(a + 1, mh, h))
-    res.append(hod(a * 2, mh, h))
+    if ph!=1: res.append(hod(a + 1, mh, h, 1))
+    if ph!=2: res.append(hod(a + 2, mh, h, 2))
+    if ph!=3: res.append(hod(a * 2, mh, h, 3))
     
     if h % 2 == 1:
         if 1 in res:
