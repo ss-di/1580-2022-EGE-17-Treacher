@@ -1,7 +1,7 @@
 ﻿function hod (a, mh, h: integer): string;
 var res: string;
 begin
-    if a >= 22 then
+    if a >= 29 then
         if h mod 2 = 1 then
             hod := '1'
         else
@@ -12,8 +12,7 @@ begin
         h := h + 1;
         res := '';
         res := res + hod(a + 1, mh, h);
-        res := res + hod(a + 2, mh, h);
-        if a mod 2 <> 0 then res := res + hod(a * 2, mh, h);
+        res := res + hod(a * 2, mh, h);
         
         if h mod 2 = 1 then
             if pos('1', res) > 0 then
