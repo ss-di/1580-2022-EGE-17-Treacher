@@ -38,7 +38,7 @@ begin
     for mh:= 1 to 6 do
         write(mh:5);
     writeln;
-    for a:= 1 to 21 do begin
+    for a:= 1 to 28 do begin
         write(a:4);
         for mh:= 1 to 6 do
             write(hod(a, mh, 0):5);
