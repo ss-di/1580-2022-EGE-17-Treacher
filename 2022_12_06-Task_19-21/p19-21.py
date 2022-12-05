@@ -1,5 +1,5 @@
 def hod(a, b, mh, h=0):
-    if a+b >= 77:
+    if a + b >= 77:
         if h % 2 == 1:
             return 1
         else:
