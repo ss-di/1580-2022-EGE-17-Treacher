@@ -3,7 +3,7 @@ def f( x, a ):
 
 
 for a in range(1, 1000):
-    for x in range(1,1000):
+    for x in range(1, 1000):
         if not f(x, a):
             break
     else:
