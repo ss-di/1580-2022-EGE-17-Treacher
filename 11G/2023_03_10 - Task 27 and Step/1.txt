@@ -1,0 +1,16 @@
+2
+1 School1
+2 School2
+4
+1 1 11a
+2 1 11b
+3 2 11a
+4 2 11b
+7
+1 1 Ivanov Ivan
+2 1 Petrov Petr
+3 2 Aleshin Aleksey
+4 2 Vasiliev Vasiliy
+5 3 Semenov Semen
+6 3 Ivanov Petr
+7 3 Petrov Semen
