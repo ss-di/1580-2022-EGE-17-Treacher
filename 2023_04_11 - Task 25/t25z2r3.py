@@ -15,6 +15,8 @@ B = 88_888_888
 for x in range(A, B+1):
     if x % 10000 == 0:
         print((x-A)/(B-A)*100)
+    while (x % 2 == 0):
+        x //= 2
     dels = get_dels(x)
     cnt = 0
     for d in dels:
