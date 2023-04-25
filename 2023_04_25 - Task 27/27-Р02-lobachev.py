@@ -24,3 +24,10 @@ for x in data:
     cnt = cnt2
 print(cnt)
 print(cnt[0])
+
+'''
+i = 5
+cnt[i] = 50
+x = 10
+(i + x) % k
+'''
